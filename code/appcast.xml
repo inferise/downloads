@@ -7,5 +7,24 @@
         <link>https://downloads.inferise.com/code/appcast.xml</link>
         <description>Release updates for Inferise Code.</description>
         <language>en</language>
+        <item>
+            <title>Version 1.10.1</title>
+            <description><![CDATA[Version 1.10.1
+
+- Unencumbered beta release
+- Inaugural non-Mac App Store version
+- Removed sandboxing giving Claude access to compiled outputs
+
+System requirements:
+
+macOS 26 or higher, with Apple Intelligence enabled]]></description>
+            <pubDate>Mon, 13 Jul 2026 19:20:08 +0000</pubDate>
+            <sparkle:version>1.10.1</sparkle:version>
+            <sparkle:shortVersionString>1.10.1</sparkle:shortVersionString>
+            <enclosure url="https://github.com/inferise/downloads/releases/download/InferiseCode-v1.10.1/InferiseCode-1.10.1.dmg"
+                       sparkle:edSignature="Pt0G8V+quRECQFREox7VEsdc6VHQQTBvV+WP3akK9RTwG4trw31ioT6Mcvn7HQeht1oUH8g7n302TSfDmrD6Dg=="
+                       length="6459718"
+                       type="application/octet-stream" />
+        </item>
     </channel>
 </rss>
