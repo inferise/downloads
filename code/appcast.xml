@@ -8,6 +8,19 @@
         <description>Release updates for Inferise Code.</description>
         <language>en</language>
         <item>
+            <title>Version 1.10.7</title>
+            <description><![CDATA[- Improved message queue for Inferise Agent
+- Standardized on tagged Swift packages
+- Bug fixes and improvements]]></description>
+            <pubDate>Sat, 18 Jul 2026 12:31:58 +0000</pubDate>
+            <sparkle:version>1.10.7</sparkle:version>
+            <sparkle:shortVersionString>1.10.7</sparkle:shortVersionString>
+            <enclosure url="https://github.com/inferise/downloads/releases/download/InferiseCode-v1.10.7/InferiseCode-1.10.7.dmg"
+                       sparkle:edSignature="mcPFr4Ipn4BvgSgf/9MfH/gZEFMUyNn3f7jFwjhyRo2rK2dMiBAf+73ygH7MqkOO9HgxBchVz+HU+COIeWm8Cw=="
+                       length="6594126"
+                       type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.10.5</title>
             <description><![CDATA[- 1.10.5 replace direct Process() usage with InferiseProcess ProcessService across GitBranchService and the SDK session runtime
 - 1.10.4 consume the four external spm* packages as pinned remote dependencies and sync the docs
