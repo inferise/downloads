@@ -8,6 +8,18 @@
         <description>Release updates for Inferise Code.</description>
         <language>en</language>
         <item>
+            <title>Version 1.11.1</title>
+            <description><![CDATA[1.11.1 enable string catalog symbol generation and adopt the Xcode 26.6 project defaults
+1.11.0 move the last local packages to remote swifts and conform the app target to SWIFTSTYLE]]></description>
+            <pubDate>Thu, 06 Aug 2026 14:48:59 +0000</pubDate>
+            <sparkle:version>1.11.1</sparkle:version>
+            <sparkle:shortVersionString>1.11.1</sparkle:shortVersionString>
+            <enclosure url="https://github.com/inferise/downloads/releases/download/InferiseCode-v1.11.1/InferiseCode-1.11.1.dmg"
+                       sparkle:edSignature="KJ+6bL26jrslVsBcK8gDdCfuBVGyIdULJrq1UQaWde/xdm7Ou4CtRI/74UBekRt4a+Zh/gwLZyGci9WwQI7JCA=="
+                       length="6757126"
+                       type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.10.7</title>
             <description><![CDATA[- Improved message queue for Inferise Agent
 - Standardized on tagged Swift packages
