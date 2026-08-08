@@ -8,6 +8,18 @@
         <description>Release updates for Inferise Code.</description>
         <language>en</language>
         <item>
+            <title>Version 1.11.3</title>
+            <description><![CDATA[- 1.11.3 add Git Client / Code Editor quick tools, a sortable project list, and full doc + SWIFTSTYLE conformance
+- 1.11.2 move the Claude config browser into a Settings pane and add a Plan empty-state icon]]></description>
+            <pubDate>Sat, 08 Aug 2026 21:44:31 +0000</pubDate>
+            <sparkle:version>1.11.3</sparkle:version>
+            <sparkle:shortVersionString>1.11.3</sparkle:shortVersionString>
+            <enclosure url="https://github.com/inferise/downloads/releases/download/InferiseCode-v1.11.3/InferiseCode-1.11.3.dmg"
+                       sparkle:edSignature="LyxnlasuARiZoOTZPyLWJr7n7ZMc3pQArmSqshsajCXh2Neg7SVB/Bex7yjO8/cG9tmC9vQNDDPWDrKWKXtdAw=="
+                       length="6823622"
+                       type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.11.1</title>
             <description><![CDATA[1.11.1 enable string catalog symbol generation and adopt the Xcode 26.6 project defaults
 1.11.0 move the last local packages to remote swifts and conform the app target to SWIFTSTYLE]]></description>
