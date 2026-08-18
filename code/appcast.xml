@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0"
-     xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
-     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
     <channel>
         <title>Inferise Code</title>
         <link>https://downloads.inferise.com/code/appcast.xml</link>
@@ -9,188 +9,74 @@
         <language>en</language>
         <item>
             <title>Version 1.11.3</title>
-            <description><![CDATA[- 1.11.3 add Git Client / Code Editor quick tools, a sortable project list, and full doc + SWIFTSTYLE conformance
-- 1.11.2 move the Claude config browser into a Settings pane and add a Plan empty-state icon]]></description>
+            <description><![CDATA[Version 1.11.3 
+- Add Git Client / Code Editor quick tools, a sortable project list, and full doc + SWIFTSTYLE conformance
+- Move the Claude config browser into a Settings pane and add a Plan empty-state icon]]></description>
             <pubDate>Sat, 08 Aug 2026 21:44:31 +0000</pubDate>
             <sparkle:version>1.11.3</sparkle:version>
             <sparkle:shortVersionString>1.11.3</sparkle:shortVersionString>
-            <enclosure url="https://github.com/inferise/downloads/releases/download/InferiseCode-v1.11.3/InferiseCode-1.11.3.dmg"
-                       sparkle:edSignature="LyxnlasuARiZoOTZPyLWJr7n7ZMc3pQArmSqshsajCXh2Neg7SVB/Bex7yjO8/cG9tmC9vQNDDPWDrKWKXtdAw=="
-                       length="6823622"
-                       type="application/octet-stream" />
+            <enclosure url="https://downloads.inferise.com/code/InferiseCode-1.11.3.dmg" sparkle:edSignature="LyxnlasuARiZoOTZPyLWJr7n7ZMc3pQArmSqshsajCXh2Neg7SVB/Bex7yjO8/cG9tmC9vQNDDPWDrKWKXtdAw==" length="6823622" type="application/octet-stream" />
         </item>
         <item>
             <title>Version 1.11.1</title>
-            <description><![CDATA[1.11.1 enable string catalog symbol generation and adopt the Xcode 26.6 project defaults
-1.11.0 move the last local packages to remote swifts and conform the app target to SWIFTSTYLE]]></description>
+            <description><![CDATA[Version 1.11.1
+- Enable string catalog symbol generation and adopt the Xcode 26.6 project defaults
+- Move the last local packages to remote swifts and conform the app target to SWIFTSTYLE
+
+System requirements:
+
+macOS 26 or higher, with Apple Intelligence enabled]]></description>
             <pubDate>Thu, 06 Aug 2026 14:48:59 +0000</pubDate>
             <sparkle:version>1.11.1</sparkle:version>
             <sparkle:shortVersionString>1.11.1</sparkle:shortVersionString>
-            <enclosure url="https://github.com/inferise/downloads/releases/download/InferiseCode-v1.11.1/InferiseCode-1.11.1.dmg"
-                       sparkle:edSignature="KJ+6bL26jrslVsBcK8gDdCfuBVGyIdULJrq1UQaWde/xdm7Ou4CtRI/74UBekRt4a+Zh/gwLZyGci9WwQI7JCA=="
-                       length="6757126"
-                       type="application/octet-stream" />
+            <enclosure url="https://downloads.inferise.com/code/InferiseCode-1.11.1.dmg" sparkle:edSignature="KJ+6bL26jrslVsBcK8gDdCfuBVGyIdULJrq1UQaWde/xdm7Ou4CtRI/74UBekRt4a+Zh/gwLZyGci9WwQI7JCA==" length="6757126" type="application/octet-stream" />
         </item>
         <item>
             <title>Version 1.10.7</title>
-            <description><![CDATA[- Improved message queue for Inferise Agent
+            <description><![CDATA[Version 1.10.7
+- Improved message queue for Inferise Agent
 - Standardized on tagged Swift packages
-- Bug fixes and improvements]]></description>
+- Bug fixes and improvements
+
+System requirements:
+
+macOS 26 or higher, with Apple Intelligence enabled]]></description>
             <pubDate>Sat, 18 Jul 2026 12:31:58 +0000</pubDate>
             <sparkle:version>1.10.7</sparkle:version>
             <sparkle:shortVersionString>1.10.7</sparkle:shortVersionString>
-            <enclosure url="https://github.com/inferise/downloads/releases/download/InferiseCode-v1.10.7/InferiseCode-1.10.7.dmg"
-                       sparkle:edSignature="mcPFr4Ipn4BvgSgf/9MfH/gZEFMUyNn3f7jFwjhyRo2rK2dMiBAf+73ygH7MqkOO9HgxBchVz+HU+COIeWm8Cw=="
-                       length="6594126"
-                       type="application/octet-stream" />
+            <enclosure url="https://downloads.inferise.com/code/InferiseCode-1.10.7.dmg" sparkle:edSignature="mcPFr4Ipn4BvgSgf/9MfH/gZEFMUyNn3f7jFwjhyRo2rK2dMiBAf+73ygH7MqkOO9HgxBchVz+HU+COIeWm8Cw==" length="6594126" type="application/octet-stream" />
         </item>
         <item>
             <title>Version 1.10.5</title>
-            <description><![CDATA[- 1.10.5 replace direct Process() usage with InferiseProcess ProcessService across GitBranchService and the SDK session runtime
-- 1.10.4 consume the four external spm* packages as pinned remote dependencies and sync the docs
-- 1.10.3 make the Plan/ToDo/Session/Agent markdown sheets user-resizable
-- 1.10.2 wire the real Sparkle appcast URL + EdDSA public key and fix a Swift 6 self-capture in ReachabilityService
-- 1.10.1 confirm before closing a project window on ⌘W
-- 1.10.0 externalize the terminal/config/transcript packages as sibling SPMs, make InferiseAgent coding-agent-agnostic, and remove the config-browser UI
-- 1.9.6 migrate call sites to the renamed InferiseMarkdown 2.0 API and simplify the Session Log toolbar icon
-- 1.9.5 isolate InferiseAgent from InferiseTerminal — the Agent drawer drives the terminal via app-supplied closures
-- 1.9.4 add an AGENT.md coding-agent activity log and rename the agent packages (InferiseAgentTranscript→InferiseTerminalTranscript, InferiseTerminalAgent→InferiseAgent)
-- 1.9.3 add Coding Assistant auto-resume, a network-reachability toolbar icon, rename Local Agent to Inferise Agent, simplify the captured-context view, and use timestamp-only SESSION.md prompt headings
-- 1.9.2 extract InferiseMarkdown into the external ../spmmarkdown sibling SPM
-- 1.9.1 fix agent-transcript prompt capture (❯ chevron), give the session-log reader a section navigator, size 80×24 windows to the cell-interval center, and stabilize the markdown editor empty state
-- 1.9.0 consolidate Markdown viewing into InferiseMarkdown (Plan/ToDo/session-log), add a SESSION.md transcript and session-resume popover, rename InferiseClaudeTranscript to InferiseAgentTranscript, default builds to the non-MAS Code scheme, and harden terminal paste/window/session handling
-- 1.8.3 sign the bundled MAS xcrun standin with app-sandbox+inherit entitlements so App Store validation (error 90296) passes
-- 1.8.2 anchor SessionDiscoveryService on the real passwd home so the sandboxed Resume button enables
-- 1.8.1 add a ⌘R Resume Session toolbar button that pastes /resume <most-recent-prior-session-id> into the Coding REPL, sourcing the id from a now-public InferiseClaude SessionDiscoveryService/DiscoveredSessionModel
-- 1.8.0 bundle a sandbox-safe xcrun standin on the terminal PATH (MAS) via InferiseTerminal's new XcrunService, front-prepending it in EnvironmentService/.zlogin, and relax ClaudeCodingService's xcrun disallow
-- 1.7.17 add InferiseMarkdown editor/viewer views (MarkdownSectionEditorView + public NSTextView-backed ScrollableTextView with scroll-to-selection and scroll-to-end), build the Plan (PLAN.md navigator) and ToDo (TODO.md promote) sheets on a shared MarkdownStoreService/MarkdownSheetView renamed from Planner, reuse ScrollableTextView as the read-only session.log viewer, replace terminal-scan and menu-rename GCD with async/await, and add an off-white terminal caret
-- 1.7.16 add InferiseGit, InferiseClaudeTranscript, and InferiseMarkdown local SPMs (git-branch boundary, session.log transcript tap, swift-markdown wrapper), a planner.md editor promoting Markdown sections to prompts, a session.log reader, claude --disallowed-tools xcrun, and a make validate target; rename RunnerSpawnSpec to TerminalExecutableModel
-- 1.7.15 relocate InferiseXcodeTools to the standalone ../spmxcodetools SPM and consume it by path, retarget make build/test at the sandboxed Code-MAS scheme (CodeTests hosted on + depending on Code-MAS), and mark the InferiseTerminalAgent parse models nonisolated
-- 1.7.14 extract developer-tools resolution into a new InferiseXcodeTools SPM (internal PathsService/ToolsService behind an InferiseXcodeTools facade + inxcode CLI), wire Ctrl+K to clear the terminal, and build the sandboxed MAS scheme from make build
-- 1.7.13 preflight the coding-assistant CLI (placeholder instead of a blank terminal when claude is missing), merge the Monitoring + Agent settings into one Inferise Agent tab, add a read-only Coding Assistant pane showing the launch path, add a ⌘↓ hotkey for the idempotent 80×24 resize, title project windows by folder name for the Window menu, and cache the real-home passwd lookup
-- 1.7.12 add drag-and-drop image attach to the interactive terminal (pasteboard + Ctrl+V into Claude, serialized reads off-main), a caller-supplied zsh PROMPT override written into the generated ZDOTDIR .zlogin, collapse Prompts drawer groups by default, and switch the 80x24 toolbar button to the square.resize SF Symbol
-- 1.7.11 narrow InferiseTerminal to a TerminalService/TerminalView public surface with a single EnvironmentService (PATH assembly + per-entry source logging) and add-only TerminalLaunch env contract; add character-grid resize + an 80x24 window toolbar button, a claudecfg-cli report tool, a sandboxed terminal-demo, and convert NSWorkspace.open to SwiftUI openURL
-- 1.7.10 append /etc/paths.d to spawned terminals' PATH via PathsDService (+ MAS read entitlement), split each package's SwiftUI into a Views/ subfolder, and order the Xcode toolchain bin ahead of Command Line Tools
-- 1.7.9 restructure and rename the local Swift package graph: split detection/drawer into InferiseTerminalAgent, merge the REPL launcher into InferiseClaude, move CodingServiceProtocol into InferiseTerminal, add the ClaudeConfig facade and per-package Version.swift, revert the Agent-drawer focus-on-click
-- 1.7.8 use the macOS com.apple.developer.aps-environment push key and add a Notifications System Settings deep-link with live permission status
-- 1.7.7 replace debugLog wrappers with per-type os_log Loggers, rename the toolchain env var to XCODE_DEFAULT_TOOLCHAIN_OVERRIDE, and rework the Local Agent drawer
-- 1.7.6 consolidate app state into four container JSON files (prompts/projects/agent/settings) with per-key writers + reference resources; rework the prompt sidebar (groups, JSON import/export, single-click edit / double-click run); add App Store Developer-Tools resolution and the MAS user-selected-files entitlement
-- 1.7.5 make InferiseTerminal the terminal manager + sole SwiftTerm boundary; add REPL confirm-option 1-6 hotkeys; move push host to api.relay.inferise.com
-- 1.7.4 add Finder "Open in Inferise Code" service, exportable/runnable incode CLI installer, and MAS "Show in App Store" menu item
-- 1.7.3 add Sparkle-free App Store (Code-MAS) target with MAS/Developer-ID entitlements split, developer-tool PATH via ZDOTDIR, and App Store deep link
-- 1.7.2 narrow the sandbox sbpl exception to /dev file-ioctl for pty control
-- 1.7.1 enable App Sandbox with temporary-exception.sbpl for pty tty/job-control access
-- 1.7.0 add on-device interaction risk evaluation via new InferiseCodeAgent package (FoundationModels); pin claude/shell HOME to the real home
-- 1.6.3 gate local notifications on authorization with diagnostics, rename File menu to Project, retool lint/format to styleguide submodule
-- Add styleguide as submodule at /styleguide
-- 1.6.2 fix bracketed-paste sanitizer breakout, process-restart teardown race, unprompted background passkey prompts, and stale config-reload overwrites
-- 1.6.1 add inbound push answer routing + on-Mac local notifications; sort + keyboard-navigate the prompt library; ⌘↑ orientation toggle
-- 1.6.0 add push notifications for detected REPL interactions via new InferiseClaudePush package
-- 1.5.7 surface the selected config file path in a resizable Claude Settings sheet; add ⌘←/⌘→ pane toggles and a ⌘. config-sheet shortcut
-- 1.5.6 add user-configurable interaction monitor markers (Settings Monitoring pane) and a scrollable captured-screen modal
-- 1.5.5 format sources and resolve SwiftLint violations (os_log diagnostics, explicit error handling, identifier renames); extract LineStreamService and SessionProcessError, decompose SessionMessageView body; scope make lint/format to owned packages
-- 1.5.4 move prompts and incode CLI install into Settings panes; replace the start screen recents list with an editable Projects table
-- 1.5.3 replace local InferiseAutoupdate package with remote inferise/spmautoupdate
-- 1.5.2 rename prompt-library "Snippet" types to "Prompt"; mark ProjectModel nonisolated to clear build warnings
-- 1.5.1 add Sparkle auto-update; remove Agent SDK tab; per-package Makefiles and READMEs
-- 1.5.0 add incode CLI to open a folder as a project from the terminal
-- 1.4.1 build a styled DMG with an /Applications drop target and safety-orange background
-- 1.4.0 extract config, agent core, REPL, and SDK layers into four local Swift packages
-- 1.3.2 add editor orientation toggle, Developer ID notarization flow, and sandbox limitations doc
-- 1.3.1 name app Inferise Code in the dock, lowercase bundle id and rename xcconfig files
-- 1.3.0 split agent tabs with a shell pane, move model picker into Agent SDK view, add auto-growing composer
-- 1.2.3 refresh app icon
-- 1.2.2 abstract coding backend behind CodingServiceProtocol, move session controls into Agent SDK view, defer session spawn
-- 1.2.1 detect Claude confirmation menus with option send, refresh app icon and add make icon target
-- 1.2.0 add SwiftTerm Claude/Terminal tabs, isolate SwiftTerm in InferiseTerminal package
-- 1.1.3 NavigationSplitView project layout with Claude/Terminal tabs, button tooltips + accessibility ids, xcconfig cleanup
-- 1.1.2 add app icon from code.png artwork
-- 1.1.1 bug-fix sweep, off-main config discovery, shared JSON-store + editable-tab scaffolding
-- 1.1.0 rework into windows-only project session terminals with prompt and stats sidebars
-- 1.0.5 Claude Code config browser and live session orchestration]]></description>
+            <description><![CDATA[Version 1.10.5
+- Replace direct Process() usage with InferiseProcess ProcessService across GitBranchService and the SDK session runtime
+
+System requirements:
+
+macOS 26 or higher, with Apple Intelligence enabled]]></description>
             <pubDate>Wed, 15 Jul 2026 03:54:24 +0000</pubDate>
             <sparkle:version>1.10.5</sparkle:version>
             <sparkle:shortVersionString>1.10.5</sparkle:shortVersionString>
-            <enclosure url="https://github.com/inferise/downloads/releases/download/InferiseCode-v1.10.5/InferiseCode-1.10.5.dmg"
-                       sparkle:edSignature="NX1MWOY0Rvlu+I8fkiPPx7JFjdAiqRHoVXNg1AUuUV8eaNwryy2gVUzSac6miZjKuhKbqYwJ2VJkJb6cqKyqCw=="
-                       length="6511807"
-                       type="application/octet-stream" />
+            <enclosure url="https://downloads.inferise.com/code/InferiseCode-1.10.5.dmg" sparkle:edSignature="NX1MWOY0Rvlu+I8fkiPPx7JFjdAiqRHoVXNg1AUuUV8eaNwryy2gVUzSac6miZjKuhKbqYwJ2VJkJb6cqKyqCw==" length="6511807" type="application/octet-stream" />
         </item>
         <item>
             <title>Version 1.10.4</title>
-            <description><![CDATA[- 1.10.4 consume the four external spm* packages as pinned remote dependencies and sync the docs
-- 1.10.3 make the Plan/ToDo/Session/Agent markdown sheets user-resizable
-- 1.10.2 wire the real Sparkle appcast URL + EdDSA public key and fix a Swift 6 self-capture in ReachabilityService
-- 1.10.1 confirm before closing a project window on ⌘W
-- 1.10.0 externalize the terminal/config/transcript packages as sibling SPMs, make InferiseAgent coding-agent-agnostic, and remove the config-browser UI
-- 1.9.6 migrate call sites to the renamed InferiseMarkdown 2.0 API and simplify the Session Log toolbar icon
-- 1.9.5 isolate InferiseAgent from InferiseTerminal — the Agent drawer drives the terminal via app-supplied closures
-- 1.9.4 add an AGENT.md coding-agent activity log and rename the agent packages (InferiseAgentTranscript→InferiseTerminalTranscript, InferiseTerminalAgent→InferiseAgent)
-- 1.9.3 add Coding Assistant auto-resume, a network-reachability toolbar icon, rename Local Agent to Inferise Agent, simplify the captured-context view, and use timestamp-only SESSION.md prompt headings
-- 1.9.2 extract InferiseMarkdown into the external ../spmmarkdown sibling SPM
-- 1.9.1 fix agent-transcript prompt capture (❯ chevron), give the session-log reader a section navigator, size 80×24 windows to the cell-interval center, and stabilize the markdown editor empty state
-- 1.9.0 consolidate Markdown viewing into InferiseMarkdown (Plan/ToDo/session-log), add a SESSION.md transcript and session-resume popover, rename InferiseClaudeTranscript to InferiseAgentTranscript, default builds to the non-MAS Code scheme, and harden terminal paste/window/session handling
-- 1.8.3 sign the bundled MAS xcrun standin with app-sandbox+inherit entitlements so App Store validation (error 90296) passes
-- 1.8.2 anchor SessionDiscoveryService on the real passwd home so the sandboxed Resume button enables
-- 1.8.1 add a ⌘R Resume Session toolbar button that pastes /resume <most-recent-prior-session-id> into the Coding REPL, sourcing the id from a now-public InferiseClaude SessionDiscoveryService/DiscoveredSessionModel
-- 1.8.0 bundle a sandbox-safe xcrun standin on the terminal PATH (MAS) via InferiseTerminal's new XcrunService, front-prepending it in EnvironmentService/.zlogin, and relax ClaudeCodingService's xcrun disallow
-- 1.7.17 add InferiseMarkdown editor/viewer views (MarkdownSectionEditorView + public NSTextView-backed ScrollableTextView with scroll-to-selection and scroll-to-end), build the Plan (PLAN.md navigator) and ToDo (TODO.md promote) sheets on a shared MarkdownStoreService/MarkdownSheetView renamed from Planner, reuse ScrollableTextView as the read-only session.log viewer, replace terminal-scan and menu-rename GCD with async/await, and add an off-white terminal caret
-- 1.7.16 add InferiseGit, InferiseClaudeTranscript, and InferiseMarkdown local SPMs (git-branch boundary, session.log transcript tap, swift-markdown wrapper), a planner.md editor promoting Markdown sections to prompts, a session.log reader, claude --disallowed-tools xcrun, and a make validate target; rename RunnerSpawnSpec to TerminalExecutableModel
-- 1.7.15 relocate InferiseXcodeTools to the standalone ../spmxcodetools SPM and consume it by path, retarget make build/test at the sandboxed Code-MAS scheme (CodeTests hosted on + depending on Code-MAS), and mark the InferiseTerminalAgent parse models nonisolated
-- 1.7.14 extract developer-tools resolution into a new InferiseXcodeTools SPM (internal PathsService/ToolsService behind an InferiseXcodeTools facade + inxcode CLI), wire Ctrl+K to clear the terminal, and build the sandboxed MAS scheme from make build
-- 1.7.13 preflight the coding-assistant CLI (placeholder instead of a blank terminal when claude is missing), merge the Monitoring + Agent settings into one Inferise Agent tab, add a read-only Coding Assistant pane showing the launch path, add a ⌘↓ hotkey for the idempotent 80×24 resize, title project windows by folder name for the Window menu, and cache the real-home passwd lookup
-- 1.7.12 add drag-and-drop image attach to the interactive terminal (pasteboard + Ctrl+V into Claude, serialized reads off-main), a caller-supplied zsh PROMPT override written into the generated ZDOTDIR .zlogin, collapse Prompts drawer groups by default, and switch the 80x24 toolbar button to the square.resize SF Symbol
-- 1.7.11 narrow InferiseTerminal to a TerminalService/TerminalView public surface with a single EnvironmentService (PATH assembly + per-entry source logging) and add-only TerminalLaunch env contract; add character-grid resize + an 80x24 window toolbar button, a claudecfg-cli report tool, a sandboxed terminal-demo, and convert NSWorkspace.open to SwiftUI openURL
-- 1.7.10 append /etc/paths.d to spawned terminals' PATH via PathsDService (+ MAS read entitlement), split each package's SwiftUI into a Views/ subfolder, and order the Xcode toolchain bin ahead of Command Line Tools
-- 1.7.9 restructure and rename the local Swift package graph: split detection/drawer into InferiseTerminalAgent, merge the REPL launcher into InferiseClaude, move CodingServiceProtocol into InferiseTerminal, add the ClaudeConfig facade and per-package Version.swift, revert the Agent-drawer focus-on-click
-- 1.7.8 use the macOS com.apple.developer.aps-environment push key and add a Notifications System Settings deep-link with live permission status
-- 1.7.7 replace debugLog wrappers with per-type os_log Loggers, rename the toolchain env var to XCODE_DEFAULT_TOOLCHAIN_OVERRIDE, and rework the Local Agent drawer
-- 1.7.6 consolidate app state into four container JSON files (prompts/projects/agent/settings) with per-key writers + reference resources; rework the prompt sidebar (groups, JSON import/export, single-click edit / double-click run); add App Store Developer-Tools resolution and the MAS user-selected-files entitlement
-- 1.7.5 make InferiseTerminal the terminal manager + sole SwiftTerm boundary; add REPL confirm-option 1-6 hotkeys; move push host to api.relay.inferise.com
-- 1.7.4 add Finder "Open in Inferise Code" service, exportable/runnable incode CLI installer, and MAS "Show in App Store" menu item
-- 1.7.3 add Sparkle-free App Store (Code-MAS) target with MAS/Developer-ID entitlements split, developer-tool PATH via ZDOTDIR, and App Store deep link
-- 1.7.2 narrow the sandbox sbpl exception to /dev file-ioctl for pty control
-- 1.7.1 enable App Sandbox with temporary-exception.sbpl for pty tty/job-control access
-- 1.7.0 add on-device interaction risk evaluation via new InferiseCodeAgent package (FoundationModels); pin claude/shell HOME to the real home
-- 1.6.3 gate local notifications on authorization with diagnostics, rename File menu to Project, retool lint/format to styleguide submodule
-- Add styleguide as submodule at /styleguide
-- 1.6.2 fix bracketed-paste sanitizer breakout, process-restart teardown race, unprompted background passkey prompts, and stale config-reload overwrites
-- 1.6.1 add inbound push answer routing + on-Mac local notifications; sort + keyboard-navigate the prompt library; ⌘↑ orientation toggle
-- 1.6.0 add push notifications for detected REPL interactions via new InferiseClaudePush package
-- 1.5.7 surface the selected config file path in a resizable Claude Settings sheet; add ⌘←/⌘→ pane toggles and a ⌘. config-sheet shortcut
-- 1.5.6 add user-configurable interaction monitor markers (Settings Monitoring pane) and a scrollable captured-screen modal
-- 1.5.5 format sources and resolve SwiftLint violations (os_log diagnostics, explicit error handling, identifier renames); extract LineStreamService and SessionProcessError, decompose SessionMessageView body; scope make lint/format to owned packages
-- 1.5.4 move prompts and incode CLI install into Settings panes; replace the start screen recents list with an editable Projects table
-- 1.5.3 replace local InferiseAutoupdate package with remote inferise/spmautoupdate
-- 1.5.2 rename prompt-library "Snippet" types to "Prompt"; mark ProjectModel nonisolated to clear build warnings
-- 1.5.1 add Sparkle auto-update; remove Agent SDK tab; per-package Makefiles and READMEs
-- 1.5.0 add incode CLI to open a folder as a project from the terminal
-- 1.4.1 build a styled DMG with an /Applications drop target and safety-orange background
-- 1.4.0 extract config, agent core, REPL, and SDK layers into four local Swift packages
-- 1.3.2 add editor orientation toggle, Developer ID notarization flow, and sandbox limitations doc
-- 1.3.1 name app Inferise Code in the dock, lowercase bundle id and rename xcconfig files
-- 1.3.0 split agent tabs with a shell pane, move model picker into Agent SDK view, add auto-growing composer
-- 1.2.3 refresh app icon
-- 1.2.2 abstract coding backend behind CodingServiceProtocol, move session controls into Agent SDK view, defer session spawn
-- 1.2.1 detect Claude confirmation menus with option send, refresh app icon and add make icon target
-- 1.2.0 add SwiftTerm Claude/Terminal tabs, isolate SwiftTerm in InferiseTerminal package
-- 1.1.3 NavigationSplitView project layout with Claude/Terminal tabs, button tooltips + accessibility ids, xcconfig cleanup
-- 1.1.2 add app icon from code.png artwork
-- 1.1.1 bug-fix sweep, off-main config discovery, shared JSON-store + editable-tab scaffolding
-- 1.1.0 rework into windows-only project session terminals with prompt and stats sidebars
-- 1.0.5 Claude Code config browser and live session orchestration]]></description>
+            <description><![CDATA[Version 1.10.4 
+- Consume the four external spm* packages as pinned remote dependencies and sync the docs
+- Make the Plan/ToDo/Session/Agent markdown sheets user-resizable
+- Wire the real Sparkle appcast URL + EdDSA public key and fix a Swift 6 self-capture in ReachabilityService
+
+System requirements:
+
+macOS 26 or higher, with Apple Intelligence enabled]]></description>
             <pubDate>Tue, 14 Jul 2026 04:45:12 +0000</pubDate>
             <sparkle:version>1.10.4</sparkle:version>
             <sparkle:shortVersionString>1.10.4</sparkle:shortVersionString>
-            <enclosure url="https://github.com/inferise/downloads/releases/download/InferiseCode-v1.10.4/InferiseCode-1.10.4.dmg"
-                       sparkle:edSignature="0AgS8p/qzP2A3vSYH2NN2Gcc0+/sEvhY8hIMHiVQprztGe7fC/ifl+ZgLyn2uZOllZi5mE4jNveOZaDa7V2pCQ=="
-                       length="6481984"
-                       type="application/octet-stream" />
+            <enclosure url="https://downloads.inferise.com/code/InferiseCode-1.10.4.dmg" sparkle:edSignature="0AgS8p/qzP2A3vSYH2NN2Gcc0+/sEvhY8hIMHiVQprztGe7fC/ifl+ZgLyn2uZOllZi5mE4jNveOZaDa7V2pCQ==" length="6481984" type="application/octet-stream" />
         </item>
         <item>
             <title>Version 1.10.1</title>
             <description><![CDATA[Version 1.10.1
-
 - Unencumbered beta release
 - Inaugural non-Mac App Store version
 - Removed sandboxing giving Claude access to compiled outputs
@@ -201,10 +87,7 @@ macOS 26 or higher, with Apple Intelligence enabled]]></description>
             <pubDate>Mon, 13 Jul 2026 19:20:08 +0000</pubDate>
             <sparkle:version>1.10.1</sparkle:version>
             <sparkle:shortVersionString>1.10.1</sparkle:shortVersionString>
-            <enclosure url="https://github.com/inferise/downloads/releases/download/InferiseCode-v1.10.1/InferiseCode-1.10.1.dmg"
-                       sparkle:edSignature="Pt0G8V+quRECQFREox7VEsdc6VHQQTBvV+WP3akK9RTwG4trw31ioT6Mcvn7HQeht1oUH8g7n302TSfDmrD6Dg=="
-                       length="6459718"
-                       type="application/octet-stream" />
+            <enclosure url="https://downloads.inferise.com/code/InferiseCode-1.10.1.dmg" sparkle:edSignature="Pt0G8V+quRECQFREox7VEsdc6VHQQTBvV+WP3akK9RTwG4trw31ioT6Mcvn7HQeht1oUH8g7n302TSfDmrD6Dg==" length="6459718" type="application/octet-stream" />
         </item>
     </channel>
 </rss>
